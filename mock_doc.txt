@@ -1,0 +1,2 @@
+This is a mock document for testing crookshanks file uploads.
+It should upload successfully and download correctly.

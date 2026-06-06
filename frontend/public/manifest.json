@@ -1,0 +1,17 @@
+{
+  "short_name": "crookshanks",
+  "name": "crookshanks Chat",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#ffffff",
+  "theme_color": "#34b7f1",
+  "display": "standalone",
+  "orientation": "portrait"
+}

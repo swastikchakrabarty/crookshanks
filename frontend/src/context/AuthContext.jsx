@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect, useContext } from 'react';
 const AuthContext = createContext(null);
 
 // Automatically detect host IP/name to support mobile debugging on local networks
-export const API_URL = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || `http://${window.location.hostname}:5000`;
+export const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://crookshanks-production.up.railway.app';
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
